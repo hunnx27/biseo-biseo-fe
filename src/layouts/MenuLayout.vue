@@ -6,12 +6,12 @@
 
       <v-img
         class="mx-2"
-        src="/resources/images/logo_pink.png"
+        src="/resources/images/logo_biseo.png"
         max-height="40"
         max-width="40"
         contain
       ></v-img>
-      <v-app-bar-title>원앤집</v-app-bar-title>
+      <v-app-bar-title>비서비서</v-app-bar-title>
       <v-spacer></v-spacer>
 
       <v-btn icon @click="doSearch">
