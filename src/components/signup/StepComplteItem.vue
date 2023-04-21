@@ -2,8 +2,8 @@
   <div class="step-two page-wrap">
     <div class="step-title">회원가입완료</div>
     <div class="welcome_txt">
-      <p class="big_txt">원앤집 회원이 되신 것을 환영합니다.</p>
-      <p>원앤집은 모든 유아교육 종사자들과 함께</p>
+      <p class="big_txt">비서비서 회원이<br/>되신 것을 환영합니다.</p>
+      <p>비서비서는 모든 비서 직군 종사자들과 함께</p>
       <p>더 나은 환경을 만들어 나가기 위해 노력합니다.</p>
     </div>
     <div class="membership_notice">
@@ -13,7 +13,7 @@
         <li>근거 없는 비방이나 모욕적 표현은 자제해 주세요.</li>
         <li>확인되지 않은 내용 적시는 법적처벌사유가 될 수 있어요.</li>
       </ul>
-      <p>원앤집 이용 문의:oneandzip@gmail.com</p>
+      <p>비서비서 이용 문의 : test@tdcompany-com</p>
     </div>
   </div>
 </template>
