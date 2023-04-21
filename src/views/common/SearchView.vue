@@ -9,7 +9,7 @@
       grow
     >
       <v-tabs-slider color="orange"></v-tabs-slider>
-      <v-tab to="#tabs-1">기관검색</v-tab>
+      <v-tab to="#tabs-1">회사검색</v-tab>
       <v-tab to="#tabs-2">상담검색</v-tab>
 
       <v-tabs-items v-model="tab" id="custom-tab-items">
@@ -17,7 +17,7 @@
           <div class="search-wrap" style="">
             <v-text-field
               v-model="keyword"
-              label="기관명을 두 글자 이상 입력하세요."
+              label="회사명을 두 글자 이상 입력하세요."
               color="orange"
             >
               <v-icon slot="append" @click="search">
@@ -89,8 +89,8 @@ export default {
       tab: 'tabs-1',
       itemList:[
         {'name':'전체', 'value':''},
-        {'name':'유아교사', 'value':'TEACHER', 'code':'S'},
-        {'name':'예비교사', 'value':'PARENT', 'code':'I'},
+        {'name':'비서', 'value':'BISEO', 'code':'B'},
+        {'name':'노비서', 'value':'NOBISEO', 'code':'N'},
       ],
       keyword2:null,
       gubn:null,
@@ -187,7 +187,7 @@ export default {
       }
       param['type'] = 'QNA_ITEM';
       param['keyword'] = 'QS01';
-      param['gubn'] = 'TEACHER';
+      param['gubn'] = 'BISEO';
       counselApi.getCounselAll(param,(body)=>{
         this.item = body!=null&&body.data.length>0? body.data[0] : [];
       })

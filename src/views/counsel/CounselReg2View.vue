@@ -161,11 +161,11 @@ export default {
       let list = [];
       if(this.user!=null){
         const gubn = this.user.gubn;
-        if('TEACHER' == gubn){
-          // gubn : TEACHER
+        if('BISEO' == gubn){
+          // gubn : BISEO
           list = this.qnaSItemList;
         }else{
-          // gubn : PARENT
+          // gubn : NOBISEO
           list = this.qnaIItemList;
         }
       }

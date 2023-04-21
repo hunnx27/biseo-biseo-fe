@@ -24,7 +24,7 @@ export default {
         isValid = true;
       } else {
         isValid = false;
-        err = "기관구분을 선택하세요.";
+        err = "비서 구분을 선택하세요.";
       }
       const rs = { isValid, err: err };
       return rs;

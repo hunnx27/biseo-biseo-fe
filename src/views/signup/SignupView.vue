@@ -73,11 +73,11 @@ export default {
       } else if (this.currentStep == 1) {
         // 회원가입 요청
         var gubnCode = this.signupData.gubnCode;
-        var gubn = "유아교사";
-        if (gubnCode == "A") {
-          gubn = "유아교사";
-        } else if (gubnCode == "I") {
-          gubn = "예비교사/학부모";
+        var gubn = "비서";
+        if (gubnCode == "B") {
+          gubn = "비서";
+        } else if (gubnCode == "N") {
+          gubn = "노비서";
         }
         if (confirm(gubn + "로 가입하시겠습니까?")) this.signup();
       } else if (this.currentStep == 2) {

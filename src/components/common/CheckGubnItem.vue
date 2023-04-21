@@ -7,11 +7,11 @@
           v-model="gubn"
           name="gubn"
           type="radio"
-          value="S"
+          value="B"
           @change="stored($event)"
-        />유아교사<br />
+        />비서<br />
       </label>
-      <p v-show="gubn == 'S'">원앤집의 모든 기능을 이용할 수 있습니다.</p>
+      <p v-show="gubn == 'B'">현재 비서로 일하고 있는 진짜 비서 : 비서비서의 모든 기능을 이용할 수 있어요.</p>
     </div>
     <div class="radio-wrap">
       <label for="checkJobGubn2">
@@ -22,9 +22,9 @@
           type="radio"
           value="I"
           @change="stored($event)"
-        />예비교사/학부모<br />
+        />노비서<br />
       </label>
-      <p v-show="gubn == 'I'">기관리뷰 작성을 제외한 모든 기능을 이용할 수 있습니다.</p>
+      <p v-show="gubn == 'N'">비서가 되고 싶은 사람 예비 비서 : 비서비서에서 리스트 조회만 가능해요.</p>
     </div>
   </div>
 </template>

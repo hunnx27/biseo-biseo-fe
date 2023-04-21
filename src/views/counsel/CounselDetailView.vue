@@ -45,7 +45,7 @@
               </v-row>
               <v-row no-gutters class="pa-5 ma-0">
                 <v-col class=" white--text">
-                  기관 - 전체 | 지역 - {{findZoneName}}
+                  회사 - 전체 | 지역 - {{findZoneName}}
                 </v-col>
               </v-row>
             </div>
@@ -120,7 +120,7 @@
     <TextareaDialogItem
       v-model="dialog"
       title="답변채택"
-      msg="따뜻한 원&집을 만들어요.<br/>답변 채택 메시지를 남겨주세요."
+      msg="따뜻한 비서비서를 만들어요.<br/>답변 채택 메시지를 남겨주세요."
       @ok="saveAdopt($event)"
       @cancel="cancelAdopt($event)"
     >
